@@ -1,0 +1,26 @@
+{
+  "name": "twiiter",
+  "version": "1.0.0",
+  "description": "twitter task aviral",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/routes/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
